@@ -8,8 +8,8 @@ A console app that lets you browse and download songs that are on youtube withou
 
 ## Requirement
 
-- python 3.6
-- pip3 (dependencias: `youtube_dl` and `beautifulsoup4`)
+- [Python](https://www.python.org/downloads/) ≥ 3.6
+- [pip3](https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3) (dependencias: [`youtube_dl`](https://pypi.org/project/youtube_dl/) and [`beautifulsoup4`](https://pypi.org/project/beautifulsoup4/))
 
 ## Installation
 
