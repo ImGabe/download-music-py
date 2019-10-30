@@ -34,6 +34,7 @@ def filter_scrapping(titles: 'class'):
 
 def display(names: list, hrefs: list):
     print()
+
     for index, name in enumerate(names):
         print(f"[{index + 1}] - {name}")
 
@@ -44,7 +45,13 @@ def display(names: list, hrefs: list):
 
 def download(href: str):
     print()
-    ydl_opts = {}
+
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'videoformat': "mp3",
+        'outtmpl': '%(title)s.%(ext)s',
+    }
+
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([f"https://www.youtube.com{href}"])
 
