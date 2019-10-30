@@ -16,14 +16,14 @@ A console app that lets you browse and download songs that are on youtube withou
 OS X & Linux:
 
 ```sh
-sudo apt install python3-bs4
-sudo apt install youtube-dl
+pip3 install requests
+sudo apt install youtube-dl python3-bs4
 ```
 
 Windows:
 
 ```sh
-pip3 install youtube_dl beautifulsoup4
+pip3 install requests youtube_dl beautifulsoup4
 ```
 
 ## Usage example
